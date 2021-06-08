@@ -12,3 +12,8 @@ Hourglass:
 
 
 ![Hourglass](./Hourglass.gif)
+
+Loading:
+
+
+![Loading](./Loading.gif)
