@@ -1,0 +1,39 @@
+* {
+    background-color: #bdc3c7;
+}
+
+.mainView {
+    margin-left: 45vw;
+    margin-top: 10vw;
+}
+
+svg.rainbow-spin path{
+    transform-origin: 32px 32px;
+    animation: spin 2.0s cubic-bezier(.175, .885, .32, 1.275) infinite;
+  }
+
+  svg.rainbow-spin .rainbow-1{
+    animation-delay: -50ms;
+  }
+  svg.rainbow-spin .rainbow-2{
+    animation-delay: -100ms;
+  }
+  svg.rainbow-spin .rainbow-3{
+    animation-delay: -150ms;
+  }
+  svg.rainbow-spin .rainbow-4{
+    animation-delay: -200ms;
+  }
+  svg.rainbow-spin .rainbow-5{
+    animation-delay: -250ms;
+  }
+
+  
+  @keyframes spin {
+    0%, 15% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
